@@ -1,0 +1,207 @@
+{
+  "@context" : {
+    "AnchovyTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AnchovyTopping"
+    },
+    "PepperTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PepperTopping"
+    },
+    "DeepPanBase" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#DeepPanBase"
+    },
+    "hasTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasTopping",
+      "@type" : "@id"
+    },
+    "CaperTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CaperTopping"
+    },
+    "isToppingOf" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isToppingOf",
+      "@type" : "@id"
+    },
+    "SpicyBeefTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SpicyBeefTopping"
+    },
+    "MozzarellaTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MozzarellaTopping"
+    },
+    "MeatTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MeatTopping"
+    },
+    "hasDiscount" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasDiscount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "hasSpiciness" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasSpiciness",
+      "@type" : "@id"
+    },
+    "purchasedPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#purchasedPizza",
+      "@type" : "@id"
+    },
+    "HighCaloriePizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HighCaloriePizza"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "SpicyPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SpicyPizza"
+    },
+    "AmericanaPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaPizza"
+    },
+    "isMilderThan" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isMilderThan",
+      "@type" : "@id"
+    },
+    "ssn" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ssn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "TomatoTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#TomatoTopping"
+    },
+    "Customer" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Customer"
+    },
+    "SohoPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SohoPizza"
+    },
+    "isBaseOf" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isBaseOf",
+      "@type" : "@id"
+    },
+    "ThinAndCrispyBase" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ThinAndCrispyBase"
+    },
+    "hasSpicinessPreference" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasSpicinessPreference",
+      "@type" : "@id"
+    },
+    "PrawnTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PrawnTopping"
+    },
+    "TunaTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#TunaTopping"
+    },
+    "Pizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Pizza"
+    },
+    "PizzaTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PizzaTopping"
+    },
+    "numberOfPizzasPurchased" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#numberOfPizzasPurchased",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "VegetarianPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#VegetarianPizza"
+    },
+    "Person" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Person"
+    },
+    "HotVeggiePizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HotVeggiePizza"
+    },
+    "CheesyPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CheesyPizza"
+    },
+    "RedPepperTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#RedPepperTopping"
+    },
+    "LowCaloriePizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#LowCaloriePizza"
+    },
+    "isSpicierThan" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isSpicierThan",
+      "@type" : "@id"
+    },
+    "JalapenoPepperTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#JalapenoPepperTopping"
+    },
+    "MargheritaPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MargheritaPizza"
+    },
+    "GreenPepperTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#GreenPepperTopping"
+    },
+    "InterestingPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#InterestingPizza"
+    },
+    "VegetableTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#VegetableTopping"
+    },
+    "MushroomTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MushroomTopping"
+    },
+    "ParmesanTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#ParmesanTopping"
+    },
+    "MediumVeggiePizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#MediumVeggiePizza"
+    },
+    "OliveTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#OliveTopping"
+    },
+    "PepperoniTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PepperoniTopping"
+    },
+    "CheeseTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#CheeseTopping"
+    },
+    "PizzaBase" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#PizzaBase"
+    },
+    "SeafoodTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SeafoodTopping"
+    },
+    "HamTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#HamTopping"
+    },
+    "hasCaloricContent" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasCaloricContent",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "AmericanaHotPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#AmericanaHotPizza"
+    },
+    "hasIngredient" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasIngredient",
+      "@type" : "@id"
+    },
+    "hasBase" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasBase",
+      "@type" : "@id"
+    },
+    "purchasedByCustomer" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#purchasedByCustomer",
+      "@type" : "@id"
+    },
+    "isIngredientOf" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#isIngredientOf",
+      "@type" : "@id"
+    },
+    "Employee" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Employee"
+    },
+    "SalamiTopping" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#SalamiTopping"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Spiciness" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#Spiciness"
+    },
+    "hasPhone" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#hasPhone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "NamedPizza" : {
+      "@id" : "http://www.semanticweb.org/pizzatutorial/ontologies/2020/PizzaTutorial#NamedPizza"
+    }
+  }
+}
