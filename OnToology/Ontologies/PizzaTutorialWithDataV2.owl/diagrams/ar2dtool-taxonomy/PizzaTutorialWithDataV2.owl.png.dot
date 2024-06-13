@@ -1,0 +1,35 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "pizza:SpicyBeefTopping" "pizza:MargheritaPizza" "pizza:OliveTopping" "pizza:Pizza" "pizza:AmericanaPizza" "pizza:HamTopping" "pizza:MozzarellaTopping" "48ebe94c:19010cdc24e:-7fe9" "pizza:SeafoodTopping" "pizza:AnchovyTopping" "pizza:TunaTopping" "pizza:JalapenoPepperTopping" "pizza:CaperTopping" "pizza:GreenPepperTopping" "pizza:PizzaBase" "pizza:PrawnTopping" "pizza:SohoPizza" "pizza:PizzaTopping" "pizza:DeepPanBase" "pizza:CheeseTopping" "pizza:PepperTopping" "pizza:ParmesanTopping" "pizza:MeatTopping" "pizza:NamedPizza" "pizza:MushroomTopping" "pizza:AmericanaHotPizza" "pizza:ThinAndCrispyBase" "pizza:SalamiTopping" "pizza:VegetableTopping" "pizza:Employee" "pizza:RedPepperTopping" "pizza:TomatoTopping" "pizza:PepperoniTopping" ; /*classes style*/
+	"pizza:CaperTopping" -> "pizza:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:HamTopping" -> "pizza:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:CheeseTopping" -> "pizza:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:Employee" -> "48ebe94c:19010cdc24e:-7fe9" [ label = "rdfs:subClassOf" ];
+	"pizza:PrawnTopping" -> "pizza:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:SpicyBeefTopping" -> "pizza:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:MeatTopping" -> "pizza:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:SeafoodTopping" -> "pizza:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:ParmesanTopping" -> "pizza:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:MozzarellaTopping" -> "pizza:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:AmericanaHotPizza" -> "pizza:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizza:RedPepperTopping" -> "pizza:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:GreenPepperTopping" -> "pizza:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:PepperoniTopping" -> "pizza:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:DeepPanBase" -> "pizza:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"pizza:AmericanaPizza" -> "pizza:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizza:MushroomTopping" -> "pizza:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:SohoPizza" -> "pizza:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizza:AnchovyTopping" -> "pizza:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:PepperTopping" -> "pizza:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:ThinAndCrispyBase" -> "pizza:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"pizza:TunaTopping" -> "pizza:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:JalapenoPepperTopping" -> "pizza:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:NamedPizza" -> "pizza:Pizza" [ label = "rdfs:subClassOf" ];
+	"pizza:OliveTopping" -> "pizza:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:SalamiTopping" -> "pizza:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:VegetableTopping" -> "pizza:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:TomatoTopping" -> "pizza:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizza:MargheritaPizza" -> "pizza:NamedPizza" [ label = "rdfs:subClassOf" ];
+
+}
